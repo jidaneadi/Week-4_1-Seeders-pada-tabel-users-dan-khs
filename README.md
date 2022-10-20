@@ -29,4 +29,5 @@ Selanjutnya untuk membuat seeders, caranya adalah sebagai berikut:
       2) npx sequelize seed:create --name=(nama file seed yang ingin dibuat) -> create-seed-users untuk mengisi data pada kolom yang ada di tabel users.
       3) npx sequelize seed:create --name=(nama file seed yang ingin dibuat) -> create-seed-khs untuk mengisi data pada kolom yang ada di tabel khs.
      */ CATATAN/*
-     Sejauh ekplorasi saya tentang seed, kita bisa mengisi data pada 2 tabel bersamaan
+     Sejauh ekplorasi saya tentang seed, kita bisa mengisi data pada 2 tabel bersamaan.
+     Penyebab kemarin error adalah penggunaan angka 0 pada npm
